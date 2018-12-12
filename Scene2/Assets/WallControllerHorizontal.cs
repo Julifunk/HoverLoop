@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WallController : MonoBehaviour
+public class WallControllerHorizontal : MonoBehaviour
 {
 
 	public float Speed = 15f;
