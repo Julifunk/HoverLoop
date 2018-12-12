@@ -15,9 +15,12 @@ public class WallControllerVertical : MonoBehaviour
 
 	private void Update()
 	{
-		if ( transform.position.y < StartPosition || transform.position.y > EndPosition)
+		if ( transform.position.y < StartPosition)
 		{
-			_direction *= -1;
+			_direction = 1;
+		} else if ( transform.position.y > EndPosition )
+		{
+			_direction = -1;
 		}
 	}
 
