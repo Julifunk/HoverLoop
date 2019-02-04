@@ -3,3 +3,8 @@ Temp/
 Obj/
 UnityGenerated/
 Assets/AssetStoreTools*
+.idea/
+Scene3/.idea/
+Scene3/Library/
+Scene3/Temp/
+Scene3/Obj/
